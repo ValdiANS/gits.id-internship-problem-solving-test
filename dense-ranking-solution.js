@@ -51,11 +51,22 @@ const denseRankingSolution = (
   return gitsScoreArrRank.join(' ');
 };
 
-const test = denseRankingSolution(
+const test1 = denseRankingSolution(
   7,
   [100, 100, 50, 40, 40, 20, 10],
   4,
   [5, 25, 50, 120]
 );
 
-console.log(test);
+const test2 = denseRankingSolution(4, [100, 80, 80, 70], 3, [60, 70, 100]);
+
+const test3 = denseRankingSolution(
+  7,
+  [100, 100, 50, 40, 40, 20, 10],
+  4,
+  [110, 70, 10, 45]
+);
+
+console.log(test1);
+console.log(test2);
+console.log(test3);

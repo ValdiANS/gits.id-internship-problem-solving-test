@@ -15,5 +15,10 @@ const firstProblemSolution = (num = 0) => {
   return result.join('-');
 };
 
-const test = firstProblemSolution(7);
-console.log(test);
+const test1 = firstProblemSolution(7);
+const test2 = firstProblemSolution(9);
+const test3 = firstProblemSolution(5);
+
+console.log(test1);
+console.log(test2);
+console.log(test3);
